@@ -11,7 +11,7 @@ public class Quiz2 {
         double kilo = Double.parseDouble(kiloInput);
 
         double soySauce = kilo * 0.5;
-        double vinegar = kilo * (1.0 / 3.0);
+        double vinegar = kilo * 0.3333;
 
         JOptionPane.showMessageDialog(null, "The ratio of soysauce for " + kilo + " kg is =" + soySauce);
         JOptionPane.showMessageDialog(null, "The ratio of vinegar for " + kilo + " kg is =" + vinegar);
