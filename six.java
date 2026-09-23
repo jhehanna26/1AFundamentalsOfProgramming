@@ -10,6 +10,6 @@ public class six {
         name = inputDevice.nextLine();
         System.out.print("Please enter your age ");
                 age = inputDevice.nextInt();
-        System.out.print("Your name is " + name + " and you are " + age + " years old.");
+        System.out.println("Your name is " + name + " and you are " + age + " years old.");
     }
 }
