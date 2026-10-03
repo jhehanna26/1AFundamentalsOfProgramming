@@ -15,6 +15,6 @@ public class Labquiz3 {
 		
 		String Total = "The netbill ==== "+ price + "\n" + "Service Charge ==== " + charge + "\n" + "Sale Tax = "+ tax + "\n" + "Net Bill "+ Netbill + "\n" + "Customer Money ==== "+ payment + "\n" + "\n" + "Change ==== " + change;
 		
-		JOptionPane.showMessageDialog(parentComponent: null, Total);
+		JOptionPane.showMessageDialog(null, Total);
 		}
 }
